@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+  margin: 20px auto;
+  max-width: 300px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 5px;
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
+
+.offline {
+    composes: status;
+    background-color: red;
+}
+
+.avatar {
+    padding: 0 10px;
+}
+
+.name {
+    margin: 0;
+    font-size: 40px;
+}

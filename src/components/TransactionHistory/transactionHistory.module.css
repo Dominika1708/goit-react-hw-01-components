@@ -1,0 +1,26 @@
+.transaction__history {
+  margin: 30px auto;
+  border: 1px solid #d4d4d4;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.titles {
+  background-color: rgb(67, 195, 255);
+  color: #fff;
+  text-align: center;
+}
+
+.title,
+.label {
+  min-width: 170px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.label {
+  padding-left: 130px;
+}
+
+.labels:nth-child(2n) {
+  background-color: rgb(231, 235, 238);
+}
